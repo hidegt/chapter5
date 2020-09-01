@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 10%;
+}
+.headline{
+  font-size: 22px;
+}
+nav{
+  text-align: center;
+}
+.list{
+  padding-left: 40px;
+}
+.box{
+  width: 200px;
+  height: 50px;
+  background-color: aquamarine;
+  margin: 50px auto;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 15%;
+  cursor: pointer;
+  box-shadow: 0 10px 0 lightgreen;
+}
+
+.box:hover{
+  opacity: 0.9;
+}
+
+.box:active{
+  box-shadow: 0 5px 0 lightgreen;
+  margin-top: 55px;
+  user-select: none;
+}
